@@ -382,6 +382,7 @@ const (
 	ExchangeSkydromeV2                 = "skydrome-v2"
 	ExchangeSkyPSM                     = "sky-psm"
 	ExchangeSmardex                    = "smardex"
+	ExchangeSomeSwap                   = "someswap"
 	ExchangeSolidlyV2                  = "solidly-v2"
 	ExchangeSolidlyV3                  = "solidly-v3"
 	ExchangeSonicMarket                = "sonic-market"

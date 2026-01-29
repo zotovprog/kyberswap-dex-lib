@@ -103,6 +103,7 @@ import (
 	"github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/rocketpool/reth"
 	"github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/smardex"
 	solidlyv2 "github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/solidly-v2"
+	"github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/someswap"
 	"github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/staderethx"
 	swapxv2 "github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/swap-x-v2"
 	"github.com/KyberNetwork/kyberswap-dex-lib/pkg/liquidity-source/swell/rsweth"
@@ -184,6 +185,7 @@ type Types struct {
 	CurveTricrypto             string
 	CurveTwo                   string
 	Uni                        string
+	SomeSwap                   string
 	UniswapV3                  string
 	Biswap                     string
 	Polydex                    string
@@ -376,6 +378,7 @@ var (
 		CurveTricrypto:             curve.PoolTypeTricrypto,
 		CurveTwo:                   curve.PoolTypeTwo,
 		Uni:                        uniswap.DexTypeUniswap,
+		SomeSwap:                   someswap.DexType,
 		UniswapV3:                  uniswapv3.DexTypeUniswapV3,
 		Biswap:                     biswap.DexTypeBiswap,
 		Polydex:                    polydex.DexTypePolydex,
